@@ -17,6 +17,10 @@ class Student{
     print('This is custom constructor');
   }
 
+   //Named constructor with parameter
+  Student.customConstructorWithParamete(this.id,this.name);
+
+
   void study()=>print('$name is studying!');
   void sleep()=>print('$name with $id is sleeping from last 8 hours');
 
